@@ -1,0 +1,10 @@
+<template>
+    <form>
+        <lightning-input label="Name" type="text" required></lightning-input>
+        <lightning-input label="Email" type="email" required></lightning-input>
+        <lightning-input label="Age" type="number" min="18" required></lightning-input>
+        <lightning-radio-group label="Gender" name="gender" options={genderOptions} required></lightning-radio-group>
+        <lightning-textarea label="Comments"></lightning-textarea>
+        <lightning-button type="submit" label="Submit"></lightning-button>
+    </form>
+</template>
